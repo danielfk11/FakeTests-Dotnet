@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsNotAsErrors>CS1591</WarningsNotAsErrors>
+
+    <!-- Package Metadata -->
+    <PackageId>TestDrive.Fakes</PackageId>
+    <Version>1.0.0</Version>
+    <Title>TestDrive.Fakes - Test Doubles Library</Title>
+    <Description>A lightweight library providing test doubles (fakes/mocks/stubs) for common integrations like email, blob storage, and HTTP clients. Enables fast, deterministic, and offline testing.</Description>
+    <Authors>TestDrive Team</Authors>
+    <Company>TestDrive</Company>
+    <Product>TestDrive.Fakes</Product>
+    <Copyright>Copyright © TestDrive Team</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/danielfk11/FakeTests-Dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>testing;fakes;mocks;stubs;test-doubles;email;storage;http</PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
