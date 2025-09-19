@@ -1,6 +1,5 @@
 # TestDrive.Fakes
 
-[![CI](https://github.com/danielfk11/FakeTests-Dotnet/actions/workflows/ci.yml/badge.svg)](https://github.com/danielfk11/FakeTests-Dotnet/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/TestDrive.Fakes.svg)](https://www.nuget.org/packages/TestDrive.Fakes/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
